@@ -1,13 +1,16 @@
 
 
 import express from 'express';
-import authRouter from ".\Routes\auth.mjs";
-import commentRouter from ".\Routes\comments.mjs";
-import feedRouter from ".\Routes\feed.mjs";
-import postRouter from ".\Routes\post.mjs";
+import authRouter from "./Routes/auth.mjs";
+import commentRouter from "./Routes/comments.mjs";
+import feedRouter from "./Routes/feed.mjs";
+import postRouter from "./Routes/post.mjs";
+import cors from "cors";
 
 
 const app = express();
+app.use(express.json())
+app.use(cors())
 
 app.use(authRouter);
 
