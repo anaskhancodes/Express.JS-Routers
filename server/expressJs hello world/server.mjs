@@ -16,13 +16,13 @@ app.use(cors())
 app.use(authRouter);
 
 
-router.use((req,res,next) =>{
-  if(token === "Valid"){
-    next();
-  }else{
-    res.send({message: "Invalid Token"});
-  }
-});
+  // router.use((req,res,next) =>{
+  //   if(token === "Valid"){
+  //     next();
+  //   }else{
+  //     res.send({message: "Invalid Token"});
+  //   }
+  // });
 
 
 
