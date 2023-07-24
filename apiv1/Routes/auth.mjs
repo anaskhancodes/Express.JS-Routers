@@ -3,12 +3,12 @@ let router = express.Router()
 
 
 
-router.post('/api/v1/login', (req, res) => {
+router.get('/login', (req, res) => {
   console.log("You're Login! => ", Date())
   res.send("You're Login! =>" + Date())
 })
 
-router.post('/api/v1/SignUp', (req, res) => {
+router.get('/SignUp', (req, res) => {
   console.log("You're SignUp => ", Date())
   res.send("You're SignUp => " + Date())
 })
