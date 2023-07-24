@@ -5,18 +5,18 @@ import authRouter from "./Routes/auth.mjs";
 import commentRouter from "./Routes/comments.mjs";
 import feedRouter from "./Routes/feed.mjs";
 import postRouter from "./Routes/post.mjs";
-import cors from "cors";
-import router from './Routes/auth.mjs';
+// import cors from "cors";
 
 
 const app = express();
 // app.use(express.json())
-app.use(cors())
+// app.use(cors())
 
 app.use(authRouter);
 
 
   // router.use((req,res,next) =>{
+  //   let token = "valid"
   //   if(token === "Valid"){
   //     next();
   //   }else{
