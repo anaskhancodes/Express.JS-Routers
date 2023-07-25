@@ -25,13 +25,13 @@ body {
 
 .contaner {
     height: 450px;
-    width: 450px;
+    width: 727px;
     background-color: cadetblue;
 
 }
 
 .contaner div {
-    width: 400px;
+    width: 696px;
     height: 50px;
     background-color: rgb(255, 255, 255);
     margin-left: 10px;
@@ -78,12 +78,12 @@ body {
 
 .contaner-1 {
     height: 450px;
-    width: 450px;
+    width: 786px;
     background-color: cadetblue;
 }
 
 .contaner-1 div {
-    width: 420px;
+    width: 763px;
     height: 50px;
     background-color: rgb(255, 255, 255);
     margin-left: 10px;
@@ -117,12 +117,12 @@ body {
 
 .conatner-2 {
     height: 210px;
-    width: 450px;
+    width: 690px;
     background-color: cadetblue;
 }
 
 .conatner-2 div {
-    width: 420px;
+    width: 665px;
     height: 50px;
     background-color: rgb(255, 255, 255);
     margin-left: 10px;
@@ -137,7 +137,7 @@ body {
 }
 
 .conatner-2 h1 {
-    margin-left: 140px;
+    margin-left: 180px;
     color: white;
 }
 
@@ -147,12 +147,12 @@ body {
 
 .auth {
     height: 255px;
-    width: 450px;
+    width: 670px;
     background-color: cadetblue;
 }
 
 .auth div {
-    width: 420px;
+    width: 645px;
     height: 50px;
     background-color: rgb(255, 255, 255);
     margin-left: 10px;
@@ -163,7 +163,8 @@ body {
 }
 
 .auth h3 {
-    margin-left: 20px;
+        margin-left: 13px;
+        font-size: 12px;
 }
 
 .auth h1 {
