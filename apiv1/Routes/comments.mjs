@@ -42,4 +42,10 @@ router.delete('/comment/:postId/:commentId', (req, res) => {
   res.send("Comment is Delete => " + Date())
 })
 
+router.get("/hello", (req, res) => {
+  console.log("Hello Huzafia bhai");
+  res.send("Hello Huzafia bhai")
+})
+
+
 export default router
